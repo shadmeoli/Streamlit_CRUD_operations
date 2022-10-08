@@ -199,13 +199,22 @@ def main():
 		col1, col2 = st.columns(2)
 
 		with col1:
-			image = Image.open('https://media-exp1.licdn.com/dms/image/C4D03AQHvHwBUw-uhOQ/profile-displayphoto-shrink_800_800/0/1656446818459?e=1670457600&v=beta&t=64fWb91iY-d_zMYlNnYc4D8qOkdewcyTpSaeDZ7iIMo')
-			st.image(image, caption="This is me")
+			image = Image.open("assets/official.jpg")
+			st.image(image, width=250, caption="This is me")
 
 		with col2:
 			st.write("""
 					I am a Machine learning engineer, data scientist, 
 				python backend develoer and a Quality Assurance(QA) automation engineer.
+				Aspiring to be a lead machine learning engineer with a certificate 
+				in data science I have perfected my database administrative skills 
+				and working with online servers(AWS and Linode server). 
+				I offer four years of experience in Data science and software engineering with excellent skills in
+				python, R, databases, javascript and office statistical tools and web development tools and frameworks 
+				which should make me a strong candidate for this role. I have strong skills in python programming, 
+				relational databases, cloud computing and version control software. 
+ 				I have grown my skills in problem-solving with real-world tasks and pressure. 
+ 				I believe my ability to develop robust, scalable code with yielding results.
 				""")
 
 		skills = {
