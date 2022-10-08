@@ -1,0 +1,8 @@
+plotly
+pillow
+pandas
+numpy
+streamlit
+sqlite3
+rich
+typer
